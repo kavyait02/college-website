@@ -1,0 +1,169 @@
+<html>
+<head>
+<style>
+* {
+     margin:0px;
+     padding:0px;
+}
+ html, body {
+     font-family Roboto, sans-serif, arial;
+     font-size: 20px;
+     color: #242424;
+}
+ .container {
+     width: 1200px;
+     margin:0px auto;
+}
+
+ .heading {
+     font-size: 22px;
+     font-weight: 500;
+     border-bottom: 1px solid navy;
+     margin-bottom:25px;
+     color: navy;
+}
+nav {
+     width: 100%;
+     float: left;
+     background: navy;
+     padding:15px 0px;
+}
+ nav a {
+     color:#fff;
+     text-decoration: none;
+     font-size: 17px;
+     border-right: 1px solid #ffc3c3;
+     padding:2px 20px;
+}
+.slider img {
+     width:100%;
+}
+.footer {
+     background-color:#1f2836;
+     padding:40px 0px;
+     width:100%;
+     float:left;
+}
+ .footer-sect {
+     width:33%;
+     float:left;
+}
+ .footer-sect h2 {
+     color:#fff;
+     margin-bottom: 20px;
+}
+ .footer-sect p {
+     color: #fff;
+     line-height: 22px;
+     padding:0px 30px 20px 0px;
+}
+ .footer-menu li {
+     width: 50%;
+     float: left;
+     margin-bottom: 10px;
+}
+ .footer-menu li a {
+     color:#fff;
+     text-decoration: none;
+}
+ .footer-contact li {
+     margin-bottom:15px;
+     list-style: none;
+     color: #fff;
+}
+
+.event {
+     width: 31%;
+     margin-right: 1%;
+     float: left;
+}
+ .event div {
+     padding:10px;
+     background-color: navy;
+     color:white;
+}
+ .event ul li {
+     margin-bottom: 20px;
+     width: 100%;
+     float: left;
+}
+.testimonial {
+     width: 380px;
+     float: left;
+     margin-right:10px;
+}
+ .testimonial-text {
+     background: #f0f3fa;
+     padding: 20px;
+     line-height: 35px;
+     border-radius: 10px;
+}
+ .testimonial-detail {
+     float:left;
+     margin-top:10px;
+}
+ .testimonial-img {
+     float:left;
+}
+ .testimonial-img img {
+     border-radius:50%;
+}
+ .testimonial-name {
+     margin-left:10px;
+     float:left;
+}
+ .testimonial-name h5 {
+     font-size:18px;
+     margin-top:8px;
+}
+.placement img {
+     border:0px solid #dfdfdf;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  cursor: pointer;
+  width: 90%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.gallery img {
+     width: 24%;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+</style>
+</head>
+</html>
